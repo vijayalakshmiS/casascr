@@ -326,6 +326,48 @@ module.exports.routes = {
   {
     controller: 'customersegment',
     action: 'destroy'
+  },
+
+  'get /operatorfunctions':
+  {
+    controller: 'operatorfunction',
+    action: 'index'
+  },
+
+  'get /operatorfunctions/:id':
+  {
+    controller: 'operatorfunction',
+    action: 'show'
+  },
+
+  'get /operatorfunctions/new':
+  {
+    controller: 'operatorfunction',
+    action: 'new'
+  },
+
+  'post /operatorfunctions':
+  {
+    controller: 'operatorfunction',
+    action: 'create'
+  },
+
+  'get /operatorfunctions/edit/:id':
+  {
+    controller: 'operatorfunction',
+    action: 'edit'
+  },
+
+  'put /operatorfunctions/:id':
+  {
+    controller: 'operatorfunction',
+    action: 'update'
+  },
+
+  'delete /operatorfunctions/:id':
+  {
+    controller: 'operatorfunction',
+    action: 'destroy'
   }
 
   /***************************************************************************

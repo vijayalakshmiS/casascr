@@ -17,7 +17,7 @@ module.exports = {
     },
 
     operatorFunction:{
-      type: 'string'
+      model: 'operatorfunction'
     },
 
     constant:{
@@ -25,7 +25,7 @@ module.exports = {
     },
 
     ruleId:{
-      model: 'rule',
+      model: 'rule'
      //foreignKey: true
     }
   }
